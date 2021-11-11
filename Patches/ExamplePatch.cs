@@ -8,7 +8,7 @@ namespace SEPluginTemplate.Patches
     /// <summary>
     /// This example patch disables the Space Engineers Logo and DLC icons from showing in the main menu, pause menu, and loading menu. It then writes the position entered in the position argument in the middle of the screen. This example shows what a patch looks like commonly. For more info, please visit: https://harmony.pardeike.net
     /// </summary>
-    [HarmonyPatch(typeof(MyBadgeHelper), "DrawGameLogo")]
+    //[HarmonyPatch(typeof(MyBadgeHelper), "DrawGameLogo")]
     internal class ExamplePatch
     {
         /// <summary>
